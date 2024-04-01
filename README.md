@@ -1,2 +1,2 @@
 # darktortilla
-decompiled source-code of recent DarkTortilla campaigns
+decompiled source-code of recent DarkTortilla campaigns. I have decompiled a recent sample found on abuse.ch and uploaded the resulting source-codes up here. The source-code strongly appears to have been obfuscated using the deepSea .NET obfuscator. The sample used for this decompilation is ```SHA256:774dc970acd014cdd4fcf9d4e31e3703d2694e2221d63e7a98f05e02a174ccb4```. https://bazaar.abuse.ch/sample/774dc970acd014cdd4fcf9d4e31e3703d2694e2221d63e7a98f05e02a174ccb4/. 
