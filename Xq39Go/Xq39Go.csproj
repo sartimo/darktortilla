@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{14754C73-7694-4528-A788-2A299DE90AA5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xq39Go</RootNamespace>
+    <AssemblyName>Xq39Go</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>Qd.Mq</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="d5\k7.cs" />
+    <Compile Include="d9\k2.cs" />
+    <Compile Include="Ex\y7.cs" />
+    <Compile Include="g9R8Lp\Wq14Nc.cs" />
+    <Compile Include="Hd\Nc.Designer.cs">
+      <DependentUpon>Nc.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Hz\Qt.cs" />
+    <Compile Include="Jc97\Xf0i.cs" />
+    <Compile Include="My\Yq.cs" />
+    <Compile Include="n5\z4.cs" />
+    <Compile Include="p4\Ns.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Px\Dj.cs" />
+    <Compile Include="Qd\Mq.cs" />
+    <Compile Include="Qo2n\Gq7i.cs" />
+    <Compile Include="r2WL\Me47.cs" />
+    <Compile Include="So\Tf.cs" />
+    <Compile Include="Tk1f\q2B3.cs" />
+    <Compile Include="Wt\Go.cs" />
+    <Compile Include="y8G2\o1W8.cs" />
+    <Compile Include="Ya\Ws.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ya\Ws.Designer.cs">
+      <DependentUpon>Ws.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="07245d57100ba8.Resources.resources" />
+    <EmbeddedResource Include="Xq39Go.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hd\Nc.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Nc.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\locresbitfer" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
